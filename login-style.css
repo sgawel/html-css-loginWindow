@@ -1,0 +1,170 @@
+/* ~~ RESET ~~ */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+a img { 
+	border: none;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display: block;
+}
+/* ~~ LINKS ~~ */
+a:link {
+	color: #000;
+}
+a:visited {
+	color: #666;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #01131f;
+/*	background: -moz-linear-gradient(top,  #01131f 0%, #750a49 100%);
+	background: -webkit-linear-gradient(top,  #01131f 0%,#750a49 100%);
+	background: linear-gradient(to bottom,  #01131f 0%,#750a49 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01131f', endColorstr='#750a49',GradientType=0 );*/
+
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.login-window {
+	margin: 0 auto;
+	width: 90%;
+	height: 70%;
+	max-width: 470px;
+	min-height: 350px;
+	background-color: #bdc0cb;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 0 0 300px 0 rgba(222,71,110,0.5);
+	box-shadow: 0 0 300px 0 rgba(222,71,110,0.5);
+}
+
+header {
+	width: 90%;
+	height: 5%;
+	padding: 5%;
+	background: #3d4c8f;
+	color: #f0f0f0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+header p:first-child {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+header p:last-child {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+section {
+	width: 90%;
+	padding: 5%;
+}
+
+section:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+label, input, button {
+	display: block;
+}
+
+section label {
+	padding: 2% 0 2% 0;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 2;
+	color: #01131f;
+}
+
+section label input {
+	width: 98%;
+	height: 44px;
+	padding-left: 2%;
+	background: #f0f0f0;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+section button {
+	width: 100%;
+	height: 44px;
+	margin: 4% 0 4% 0;
+	background: #dd3863;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff; 
+}
+
+section label:nth-child(4) {
+	float: left;
+	padding: 4% 0 1% 0;
+	margin: 0;
+	font-size: 14px;
+	color: #67757f;
+	cursor: pointer;
+}
+
+[type="checkbox"] {
+	float: left;
+	width: 20px;
+	height: 28px;
+
+}
+
+section a p {
+	display: block;
+	float: right;
+	padding: 6% 0 1% 0;
+	font-size: 14px;
+	font-weight: 700;
+	color: #67757f;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
